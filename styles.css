@@ -1,5 +1,11 @@
-selector {
-    
+/*===== RESET DEFAULTS =====*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/*====== GLOBAL STYLES =====*/
 body{
     font-family: Arial, sans-serif;
     color: #333;
@@ -8,6 +14,8 @@ body{
     padding: 0;
     line-height: 1.6;
 }
+
+/*===== HEADER STYLES =====*/
 header{
     background-color: #4CAF50;
     color: white;
@@ -19,6 +27,8 @@ header h1 {
     margin: 0;
 }
 
+
+/*===== NAVIGATION STYLES =====*/
 nav a {
     color: white;
     text-decoration: none;
@@ -29,19 +39,49 @@ nav a:hover{
     text-decoration: underline;
 }
 
+/*===== IMAGE STYLES =====*/
 main img {
 padding: 20px;
-max-width: 800px;
+max-width: 10px;
 margin: 0 auto;
 }
 
 main img {
-    max-width: 100%;
-    height: auto;
+    max-width: 30%;
+    height: 10%;
     display: block;
     margin: 20px 0;
 }
 
+
+/*===== PARAGRAPH STYLES =====*/
+p {
+    font-size: 1.1em;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/*===== LINK HOVER EFFECT =====*/
+a:hover {
+    text-decoration: underline;
+}
+
+/*===== IMAGE STYLES =====*/
+img {
+border: 5px solid #4CAF50;
+border-radius: 10px;
+}
+
+/*===== EMAIL LINK STYLES =====*/
+main a[href^="mailto:"]{
+    color: #ff5722;
+    font-weight: bold;
+}
+
+/*===== FOOTER STYLES =====*/
 footer {
     background-color: #333;
     color: white;
@@ -52,27 +92,3 @@ footer {
     width: 100%;
 }
 
-p {
-    font-size: 1.1em;
-}
-
-a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-img {
-border: 5px solid #4CAF50;
-border-radius: 10px;
-}
-
-main a[href^="mailto:"]{
-    color: #ff5722;
-    font-weight: bold;
-}
-
-}
